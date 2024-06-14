@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="_css/form.css">
+    <script src="_js/form.js"></script>
+</head>
+<body>
+    <div class="pagina">
+    <header>
+        <h1><img src="_imagens/logo3.png"> Blog do Subnautica</h1>
+        <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="subnautica.html">Subnautica</a></li>
+            <li><a href="below_zero.html">Subnautica Below Zero</a></li>
+            <li><a href="forms.html">Formulário</a></li> 
+            <li><a href="sobre_mim.html">Sobre o Autor</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Qual o seu jogo preferido? Deixe no formulário abaixo a sua opinão sobre o blog, seja ela sobre o jogo ou sobre a estética dele 😉.</h1>
+        <div class="forms">
+            <form method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" required><br><br>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem"></textarea><br><br>
+
+                <input type="submit" name="enviar" value="Enviar" onclick="Enviar()"> <br>
+                <input type="reset" name="limpar" value="Limpar" onclick="Limpar()">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Site produzido por Daniel Doleski Simão</p>
+        <p>Contato: <a href="mailto:daniel_d_simao@estudante.sesisenai.org.br?subject=Email">daniel_d_simao@estudante.sesisenai.org.br</a></p>
+    </footer>
+</div>
+</body>
+</html>

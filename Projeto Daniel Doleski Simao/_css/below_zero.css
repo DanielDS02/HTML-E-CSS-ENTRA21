@@ -1,0 +1,101 @@
+body {
+  background-image: url(../_imagens/below_zero.gif);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
+}
+
+.pagina {
+  background-color: #000000;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+  border: 2px solid #00eeff;
+
+}
+
+nav {
+  display: block;
+  text-transform: uppercase;
+  
+}
+
+nav ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #000000;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 1s;
+  border: 1px solid #00eeff;
+}
+
+nav li:hover {
+  background-color: #ff9100;
+}
+
+
+nav a {
+  color: #606060;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  color: #ff9100;
+  text-align: left;
+}
+
+h1 img {
+  height: 50px;
+}
+
+img {
+  height: 200px;
+  
+}
+
+h2 {
+  color: #606060;
+}
+
+h2 strong {
+  color: #00eeff;
+}
+
+a {
+  color: #00eeff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #08ff08;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000000;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+  color: #606060;
+  opacity: 50%;
+  
+}
+
+footer a {
+  color: #ff9100;
+  opacity: 70%;
+  text-decoration: none;
+}
